@@ -58,7 +58,7 @@ runs:
           printf 'NVKR-E-ENGINE-CAPABILITY: private bootstrap requires Python 3\n' >&2
           exit 29
         fi
-        exec python3 -I - '-X main.version=dev -X main.commit=unknown' <<'PY'
+        exec python3 -I - '-X main.version=v0.1.0-11-g9686e3cd -X main.commit=9686e3cd' <<'PY'
         import json
         import os
         import re
